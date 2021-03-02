@@ -9,7 +9,7 @@ countdownDiv.id = "countdownDiv";
 headerText.id = "headerText";
 countdownText.id = "countdownText"
 
-headerText.innerHTML = "It's the final countdown!";
+headerText.innerHTML = "It's the final <br><span id='countDown'>countdown!</span>";
 
 document.body.appendChild(rootDiv);
 rootDiv.appendChild(headerText);

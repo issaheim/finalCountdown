@@ -6,13 +6,47 @@
 body{
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(retro.jpg);
+  background-size: cover;
+  background-position: center;
+
+  font-family: mr-eaves-modern, sans-serif;
+  font-size: 1.5rem;
 }
 
 h1{
-  font-family: mr-eaves-modern, sans-serif;
+  position: relative;
+  left: 5.7vw;
+  
   font-weight: 800;
   font-style: italic;
-  font-size: 5rem;
-  color: black;
+  font-size: 1.3vw;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  transform: skewY(7deg);
+  color: blue;
+  text-shadow: blue 0 0 3px;
+}
+
+#rootDiv{
+  width: 20vw;
+}
+
+#countdownDiv{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.6vw;
+  color: aliceblue;
+  transform: skewY(7deg);
+}
+
+#countdownTxt{
+  font-size: 1.2vw;
+  
 }
 
