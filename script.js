@@ -16,8 +16,8 @@ rootDiv.appendChild(headerText);
 rootDiv.appendChild(countdownDiv);
 
 
-// Creating the countdown
 
+// Creating the countdown
 function countdown(){
   let countDownDate = new Date("Sep 23, 2022 17:00:00").getTime();
   
@@ -43,4 +43,3 @@ function countdown(){
 }
 
 countdown()
-
